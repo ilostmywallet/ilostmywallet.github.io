@@ -1,0 +1,146 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	  margin-left: auto;
+   margin-right: auto;
+      margin-top: auto;
+   margin-bottom: auto;
+  height: 1800px;
+  width:900px;
+  background-color: hsla(200,13%,17%, 0);
+  opacity: 100%;
+}
+.foto{
+height:16%;
+width:100%;
+float:left;
+opacity: 100%;
+}
+.rez{
+	padding-top: 5%;
+	padding-bottom: 2%;
+	margin-left: 	5%;
+	color: blue;
+	font-family: Bradley Hand, cursive;
+	font-size: 30px;
+}
+body{
+	background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.leftpart{
+	width: 30%;
+	height: 1800px;
+	background-color: hsla(200,13%,17%, 0);
+	float: left;
+}
+.contleft{
+	width: 100%;
+	height: 84%;
+	float: left;
+	background-color: hsla(224, 100%, 50%, 0.8);
+	padding-top: 5%;
+}
+.rightpart{
+	width: 70%;
+	height: 1812px;
+	background-color: white;
+	float: right;
+}
+p{
+	margin-left: 5%;
+	margin-top: 1%;
+	font-size: 12px;
+}
+.line{
+	width: 90%;
+	height: 5px;
+	 margin-left: auto;
+   margin-right: auto;
+	background-color: blue;
+}
+.info{
+	margin-top: 5%;
+	margin-left: 12%;
+	color: white;
+	font-family: Bradley Hand, cursive;
+	font-size: 12px;
+}
+h2{
+	margin-left: 5%;
+	color: blue;
+	margin-top: 2%;
+	font-family: Bradley Hand, cursive;
+	font-size: 20px;
+}
+ol{
+	margin-top: 1%;
+	margin-left: 7.4%;
+	font-size: 12px;
+}
+.spuc{
+	margin-left: 7.4%;
+	margin-bottom: 1%;
+	font-family: Bradley Hand, cursive;
+}
+ul{
+	margin-top: 1%;
+	margin-left: 7.4%;
+	font-family: Bradley Hand, cursive;
+	font-size: 12px;
+}
+.continfo{
+	margin-top: 5%;
+	margin-left: 12%;
+	color: white;
+	font-family: Bradley Hand, cursive;
+	font-size: 18px;
+}
+p{
+	color: blue;
+	font-family: Bradley Hand, cursive;
+}
+li{
+	color: blue;
+	margin-bottom: 1%;
+	font-family: Bradley Hand, cursive;
+	font-size: 12px;
+}
+.poshta{
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+}
+.phone{
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+}
+.mitka{
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+}
+.menu{
+    padding: 0px;
+    margin-top: 0px;
+}
+.men{
+	display: inline-block;
+	background-color: hsla(224, 100%, 50%, 0.8);
+	font-family: Bradley Hand, cursive;
+	font-size: 14px;
+	border-radius: 0% 0% 50% 50%;
+	padding: 0% 2% 2% 2%;
+	margin-left: 3%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.firm{
+	list-style-type:upper-alpha;
+}
