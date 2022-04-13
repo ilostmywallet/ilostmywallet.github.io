@@ -3,17 +3,17 @@
 	padding: 0px;
 }
 .main{
-	  margin-left: auto;
-   margin-right: auto;
-      margin-top: auto;
-   margin-bottom: auto;
-  height: 900px;
-  width:900px;
-  background-color: hsla(200,13%,17%, 0);
-  opacity: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+height: 1500px;
+width:900px;
+background-color: hsla(200,13%,17%, 0);
+opacity: 100%;
 }
 .foto{
-height:30%;
+height:20%;
 width:100%;
 float:left;
 opacity: 100%;
@@ -33,20 +33,20 @@ body{
 }
 .leftpart{
 	width: 30%;
-	height: 900px;
+	height: 1500px;
 	background-color: hsla(200,13%,17%, 0);
 	float: left;
 }
 .contleft{
 	width: 100%;
-	height: 70%;
+	height: 80%;
 	float: left;
 	background-color: hsla(224, 100%, 50%, 0.8);
 	padding-top: 5%;
 }
 .rightpart{
 	width: 70%;
-	height: 912px;
+	height: 1512px;
 	background-color: white;
 	float: right;
 }
@@ -141,4 +141,26 @@ color: white;
 }
 .butonlab:hover{
 	background: #000;
+}
+.men{
+	display: inline-block;
+	background-color: hsla(224, 100%, 50%, 0.8);
+	color: white;
+	margin-left: 20px;
+	margin-top: 0px;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	border-radius: 0% 0% 25% 25%;
+	border-top-width: 0px;
+	border: solid hsla(224, 100%, 50%, 0.8);
+}
+.men:hover{
+	background: #000;
+	border-color: white;
+}
+.menu {
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 20px;
 }
