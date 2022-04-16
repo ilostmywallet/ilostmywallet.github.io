@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	font-family: Georgia, serif;
 }
 .main{
 margin-left: auto;
@@ -23,7 +24,6 @@ opacity: 100%;
 	padding-bottom: 2%;
 	margin-left: 	5%;
 	color: blue;
-	font-family: Bradley Hand, cursive;
 	font-size: 30px;
 }
 body{
@@ -66,14 +66,12 @@ p{
 	margin-top: 5%;
 	margin-left: 12%;
 	color: white;
-	font-family: Bradley Hand, cursive;
 	font-size: 12px;
 }
 h2{
 	margin-left: 5%;
 	color: blue;
 	margin-top: 2%;
-	font-family: Bradley Hand, cursive;
 	font-size: 20px;
 }
 ol{
@@ -84,29 +82,24 @@ ol{
 .spuc{
 	margin-left: 7.4%;
 	margin-bottom: 1%;
-	font-family: Bradley Hand, cursive;
 }
 ul{
 	margin-top: 1%;
 	margin-left: 7.4%;
-	font-family: Bradley Hand, cursive;
 	font-size: 12px;
 }
 .continfo{
 	margin-top: 5%;
 	color: white;
-	font-family: Bradley Hand, cursive;
 	font-size: 18px;
 	text-align: center;
 }
 p{
 	color: blue;
-	font-family: Bradley Hand, cursive;
 }
 li{
 	color: blue;
 	margin-bottom: 1%;
-	font-family: Bradley Hand, cursive;
 	font-size: 12px;
 }
 .poshta{
@@ -126,7 +119,6 @@ li{
 }
 .butonlab{
 	margin: 5% 10% 0% 5%;
-	font-family: Bradley Hand, cursive;
 	font-size: 12px;
 	border: 5px solid white;
 	border-radius: 10px;
