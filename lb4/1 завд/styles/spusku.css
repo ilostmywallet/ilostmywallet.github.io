@@ -1,0 +1,21 @@
+ul{
+	list-style: none;
+}
+li:nth-child(1)::before {
+  content: "\2660";  /* юникод точки */
+  width: 1em; 
+}
+li:nth-child(2)::before {
+  content: "\2663";  /* юникод точки */
+  width: 1em; 
+}
+li:nth-child(3)::before {
+  content: "\2665";  /* юникод точки */
+  width: 1em; 
+  color: red;
+}
+li:nth-child(4)::before {
+  content: "\2666";  /* юникод точки */
+  width: 1em; 
+  color: red;
+}

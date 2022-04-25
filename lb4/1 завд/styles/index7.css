@@ -1,0 +1,45 @@
+.batareika {
+display: relative;
+z-index: 111;
+width: 120px;
+height: 50px;
+border: 5px solid black;
+position: relative;
+margin-top: 20px;
+}
+.batareika::after {
+position: absolute;
+content: '';
+width: 15px;
+height: 20px;
+background: black;
+top: 15px;
+left: 120px;
+}
+.batareika::before {
+position: absolute;
+content: '';
+width: 80px;
+height: 51px;
+background: yellow;
+top: -.5px;
+left: -.5px;
+}
+.batareika:first-child::before {
+position: absolute;
+content: '';
+width: 30px;
+height: 51px;
+background: red;
+top: -.5px;
+left: -.5px;
+}
+.batareika:last-child::before {
+position: absolute;
+content: '';
+width: 121px;
+height: 51px;
+background: green;
+top: -.5px;
+left: -.5px;
+}

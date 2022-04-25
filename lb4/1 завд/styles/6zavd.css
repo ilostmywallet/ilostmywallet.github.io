@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    overflow: hidden;
+}
+h1 > span {
+    position: relative;
+    display: inline-block;
+}
+h1 > span:before{
+    content: "                     ";
+    width: 600%;
+    border-top: 4px solid;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+ 
+}
+
+h1 > span:after {
+    left: 100%;
+    content: "                     ";
+    width: 600%;
+    border-top: 4px solid;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    
+}
