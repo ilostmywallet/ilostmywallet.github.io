@@ -10,9 +10,9 @@
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(212,236,166,1) 0%, rgba(255,255,255,1) 10%, rgba(255,244,125,1) 96%, rgba(213,209,166,1) 97%, rgba(205,199,135,1) 98%, rgba(159,154,82,1) 99%, rgba(144,137,71,1) 100%);
     border-left: 350px;
-     border-top: 10px solid #31380c;
-    border-right: 10px solid #31380c;
-    border-bottom: 10px solid #31380c;
+     border-top: 10px solid brown;
+    border-right: 10px solid brown;
+    border-bottom: 10px solid brown;
     border-image: linear-gradient(90deg, rgba(49,56,12,1) 0%, rgba(148,163,112,1) 62%, rgba(66,74,19,1) 100%);
     padding-top: 100px;
 }
