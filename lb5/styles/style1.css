@@ -8,6 +8,7 @@
   height: 300px;
   border: 1px solid black;
     position: relative;
+  margin: 100px auto;
 }
 .house {
   width: 150px;
