@@ -4,26 +4,47 @@
     font-family: Arial, sans-serif;
 }
 .block{
-    margin: 50px auto;
+    margin: 100px auto;
     height: 400px;
     width: 350px;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(212,236,166,1) 0%, rgba(255,255,255,1) 10%, rgba(255,244,125,1) 96%, rgba(213,209,166,1) 97%, rgba(205,199,135,1) 98%, rgba(159,154,82,1) 99%, rgba(144,137,71,1) 100%);
-    border-left: 350px solid brown;
-     border-top: 10px solid brown;
-    border-right: 10px solid brown;
-    border-bottom: 10px solid brown;
-    padding-top: 100px;
+    background: lightblue;
+    padding-top: 20px;
+    border-radius: 20px;
+    border: 3px solid black;
+    position: relative;
+}
+.block:before{
+    content: "";
+    border: 10px solid black;
+    position: absolute;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    top: -50px;
+    left: 33%;
 }
 .butonlab{
-    width: 200px;
-    margin-left: 75px;
+    width: 10px;
+    margin-left: 50px;
     list-style-type: none;
     text-align: center;
     background-color: yellow;
     margin-bottom: 10px;
     border-radius: 10px;
     border: 3px solid black;
+    overflow: hidden;
+    max-height: 20px;
+    animation: sizer 2s 0s 1 forwards ease-in-out;
+}
+.butonlab:first-child{
+    margin-top: 30px;
+}
+.butonlab:last-child{
+    margin-bottom: 30px;
+}
+.butonlab:hover{ 
+    cursor: pointer;
 }
 h3{
     margin: 10px auto;
@@ -31,4 +52,21 @@ h3{
 }
 a{
     text-decoration: none;
+    user-select: none;
+    word-wrap: unset;
+    white-space: nowrap;
+}
+ol{
+    background-color: white;
+    border: 20px solid lightblue;
+    border-radius: 40px;
+}
+@keyframes sizer{
+    0%{
+        width: 10px;
+    }
+    100%{
+        width: 200px;
+    }
+   
 }
