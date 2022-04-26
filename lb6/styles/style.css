@@ -64,7 +64,6 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
   background-color: yellow;
   padding: 18px 10px 2px 10px;
   color: black;
-
 }
 .button_first{
   background-color: hotpink;
@@ -149,14 +148,20 @@ span{
   color:white ;
   transition: 0.5s linear;
 }
-
 .card:nth-child(n+4)>.button:hover
+{
+  background-color:grey;
+  cursor:pointer;
+  color:black;
+  transition: 0.5s linear;
+}
+.card:nth-child(n+4)>.button:active
 {
   background-color:black;
   cursor:pointer;
   color:white;
-  transition: 0.5s linear;
 }
+
 .photo:hover{
   transform: scale(1.1);
   transition: transform 0.25s;
