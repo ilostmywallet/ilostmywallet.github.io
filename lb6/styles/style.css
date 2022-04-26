@@ -179,3 +179,9 @@ a {
   margin-top: 2%;
   font-size: 24px;
 }
+.div{
+  margin: 20px auto;
+  width:1004px;
+  position: relative;
+  height: 30px;
+}
