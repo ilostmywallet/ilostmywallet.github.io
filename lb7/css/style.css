@@ -140,7 +140,7 @@ margin-right: 10px;
 .turin{
 		background-image: url('../img/tour/turin.jpg');
 }
-@media screen and (max-width: 1200px) 
+@media screen and (max-width: 900px) 
 {
 .tour-card{
 	display: block;
@@ -160,12 +160,6 @@ margin-right: 10px;
 	margin: 1% 1% 0% 0%;
 	display: inline-flex;
 	flex: 1;
-}
-@media screen and (max-width: 1200px) 
-{
-.photo{
-	display: block;
-      }
 }
 /* Subscribe */
 #subscribe
