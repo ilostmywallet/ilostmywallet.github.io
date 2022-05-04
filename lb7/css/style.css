@@ -140,6 +140,9 @@ margin-right: 10px;
 .turin{
 		background-image: url('../img/tour/turin.jpg');
 }
+}
+@media screen and (max-width: 720px) 
+{
 /* Gallery */
 #gallery{
 	background-color: #404040;
