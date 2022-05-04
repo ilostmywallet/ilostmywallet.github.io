@@ -1,0 +1,57 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+
+/* General */
+*{
+color: black;
+text-transform: uppercase;
+}
+.social{
+	margin: 2% 45%;
+}
+h3{
+	margin: 10% 39.5%;
+	width: 20%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.fa{
+	width: 16px;
+	height: 16px;
+	background-size: 78px 52px;
+}
+.fa-fdacebook-official{
+	background-image: url('../img/css_sprites.png');
+	background-position-y: -31px;
+	background-position-x: -57px;
+}
+.fa-tdwitter{
+	background-image: url('../img/css_sprites.png');
+background-position-y: -5px;
+	background-position-x: -57px;
+}
+.fa-ydoutube{
+	background-image: url('../img/css_sprites.png');
+background-position-y: -31px;
+	background-position-x: -31px;
+}
+.fa-adpple{
+	background-image: url('../img/css_sprites.png');
+background-position-y: -31px;
+	background-position-x: -5px;
+}
+.fa-sdpotify{
+	background-image: url('../img/css_sprites.png');
+background-position-y: -5px;
+	background-position-x: -31px;
+}
+.fa-sdoundcloud{
+	background-image: url('../img/css_sprites.png');
+background-position-y: -5px;
+	background-position-x: -5px;
+}
