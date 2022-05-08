@@ -1,0 +1,195 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600&display=swap');
+a{
+text-decoration: none;
+z-index: 1;
+color: #989898;
+font-size: 14px;
+}
+/* Header */
+#topbar>.container,#tblock>.container,#news>.container,footer>.container{
+	color: white;
+	margin: 0px auto;
+	width: 850px;
+	min-height: 10px;
+	padding: 20px 0px 10px 0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+}
+#topbar{
+	min-height: 60px;
+	width: 100%;
+}
+.left{
+	float: left;
+	width: 50%;
+}
+.menu>li{
+	display: inline-block;
+	margin-right: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+}
+.right{
+	float: right;
+	width: 25%;
+}
+.menu>li:last-child{
+	display: inline-block;
+	margin-right: 0%;
+}
+.namer{
+	display: inline-block;
+	font-size: 22px;
+	padding: 0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	color: deepskyblue;
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	color:  #e6e6e6;
+}
+#picture>.container{
+height: 300px;
+padding: 70px 0px 0px 0px;
+background-image: url('../img/jumbotron.jpg');
+background-size:cover;
+}
+.button{
+	display: block;
+	margin: 0px auto 0px auto;
+	font-size: 14px;
+	text-align: center;
+	background-color: deeppink;
+	color: white;
+	max-width: 170px;
+	padding: 15px 10px;
+	border-radius: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+}
+.button:hover{
+	background-color: black;
+}
+.container:nth-child(2){
+	background-color: yellow;
+	padding: 75px 0px 75px 0px;
+}
+/* Tour */
+h2{
+margin: 30px auto;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 0px;
+	color: black;
+}
+.card{
+	display: inline-block;
+	background-color: white;
+	min-height: 100px;
+	width: 207px;
+	margin-bottom: 20px;
+	position: relative;
+	padding: 0px 30px 30px 30px;
+}
+.card>img{
+	display: block;
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	top: 20%;
+	left: 100px;
+	filter: invert;
+	opacity: 50%;
+}
+.card>p{
+	margin: 60% 0px 0px 0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+	font-size: 14px;
+	color: darkgrey;
+	text-align: center;
+}
+.card:not(:last-child){
+margin-right: 20px;
+}
+.text{
+display: inline-block;
+float: right;
+	width: 560px;
+	min-height: 250px;
+}
+figure{
+	min-height: 250px;
+	margin-bottom: 20px;
+	color: black;
+}
+figure>a{
+	display: inline-block;
+	width: 270px;
+	height: 250px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+img{
+	width: 270px;
+	height: 250px;
+}
+.text>a{
+	display: block;
+	color: black;
+font-size: 24px;
+margin: 28px 0px 8px 0px;
+padding: 5px 0px 5px 0px;
+overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 90%;
+}
+.text>span{
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px 0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+	color: darkgrey;
+}
+.info{
+font-size: 14px;
+min-height: 100px;
+color: darkgrey;
+font-family: 'Raleway', sans-serif;
+font-weight:400;
+line-height: 140%;
+}
+footer{
+background-color: #38404b;
+padding: 3% 0px 5% 0px;
+text-align: center;
+width: 100%;
+}
+.copyright{
+	margin-top: 20px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+	font-size: 12px;
+}
+/* Gallery */
+
+/* Subscribe */
+
+/* Footer */
