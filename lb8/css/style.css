@@ -3,6 +3,7 @@
 body
 {
 	min-width: 900px;
+	font-family: 'Raleway', sans-serif;
 }
 a{
 text-decoration: none;
@@ -30,7 +31,6 @@ font-size: 14px;
 .menu>li{
 	display: inline-block;
 	margin-right: 10px;
-	font-family: 'Raleway', sans-serif;
 	font-weight:400;
 }
 .right{
@@ -44,12 +44,9 @@ font-size: 14px;
 .namer{
 	display: inline-block;
 	font-size: 22px;
-	padding: 0px;
-	padding: 0px 0px 0px 0px;
 	margin-bottom: 20px;
-	color: deepskyblue;
-	font-family: 'Raleway', sans-serif;
-	font-weight:400;
+	color: rgb(89, 171, 227);
+	font-weight:600;
 
 }
 h1{
@@ -57,7 +54,6 @@ h1{
 	font-size: 50px;
 	text-align: center;
 	margin-bottom: 70px;
-	font-family: 'Raleway', sans-serif;
 	font-weight:600;
 	color:  #e6e6e6;
 }
@@ -79,7 +75,6 @@ background-size:cover;
 	max-width: 170px;
 	padding: 15px 10px;
 	border-radius: 25px;
-	font-family: 'Raleway', sans-serif;
 	font-weight:600;
 }
 .button:hover{
@@ -113,7 +108,6 @@ margin: 30px auto;
 }
 .card>p{
 	margin: 60% 0px 0px 0px;
-	font-family: 'Raleway', sans-serif;
 	line-height: 140%;
 	font-weight:400;
 	font-size: 13.5px;
@@ -161,7 +155,6 @@ width: 100%;
 	font-size: 14px;
 	display: inline-block;
 	padding: 10px 0px 15px 0px;
-	font-family: 'Raleway', sans-serif;
 	font-weight:400;
 	color: darkgrey;
 }
@@ -169,7 +162,6 @@ width: 100%;
 font-size: 13.5px;
 min-height: 100px;
 color: darkgrey;
-font-family: 'Raleway', sans-serif;
 font-weight:400;
 line-height: 140%;
 }
@@ -186,7 +178,9 @@ min-width: 900px;
 .copyright{
 	margin-top: 20px;
 	color: white;
-	font-family: 'Raleway', sans-serif;
 	font-weight:400;
 	font-size: 12px;
+}
+footer>.container>.namer{
+	color: grey;
 }
