@@ -117,7 +117,7 @@ color: white;
 	text-align: center;
 	width: 100%;
 	color: #3b66ee;
-	font-size: 12px;
+	font-size: 14px;
 }
 .lol:hover{
 	color: black;
@@ -141,20 +141,24 @@ body{
     background-size: 100%;
 }
 .rez{
-	margin: 40px 0px 10px 0px;
+	margin: 40px 0px 0px 0px;
 	color: #3b66ee;
 }
 .liner{
 	width: 100%;
 	height: 5px;
 	background-color: #3b66ee;
-	
+	margin: 10px 0px 10px 0px;
+}
+.ide {
+	height: 3px;
 }
 .pers{
 	    font-size: 14px;
 }
 h2{
 	margin: 10px 0px;
+	font-size: 18px;
 }
 .ocvit{
 	margin-left: 17.5px;
@@ -162,15 +166,24 @@ h2{
 .ocvit>li{
 	margin-bottom: 7.5px;
 	color: #3b66ee;
+	font-size: 14px;
 }
 ol{
 	margin-left: 17.5px;
 	margin-bottom: 7.5px;
+	font-size: 14px;
 }
 ul{
 	margin-left: 17.5px;
 	margin-bottom: 7.5px;
+	font-size: 14px;
 }
 .right>ol>li{
 	margin-bottom: 7.5px;
+}
+.info{
+	font-size: 18px;
+}
+.det{
+	font-size: 14px;
 }
