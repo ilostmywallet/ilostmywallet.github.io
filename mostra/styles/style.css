@@ -341,7 +341,7 @@ box-sizing: border-box;
 }
 .top{
   background-color: none;
-  padding: 37.5px 0px 5.5px 0px;
+  padding: 28.5px 0px 15.5px 0px;
 }
 .email{
   float: left;
@@ -384,7 +384,7 @@ display: none;
 .menu_item:last-child{
   display: flex;
   border: 0px solid black;
-  flex: 0 0 100px;
+  flex: 0 1 50px;
 }
 .link{
   box-sizing: border-box;
@@ -411,7 +411,6 @@ form{
   font-size: 10;
 }
 .search{
-  
   padding: 10px 80px 13px 10px;
   font-size: 10px;
   font-family: Verdana; 
