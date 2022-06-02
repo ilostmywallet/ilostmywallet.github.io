@@ -385,6 +385,7 @@ display: none;
   display: flex;
   border: 0px solid black;
   flex: 0 1 50px;
+  justify-content: space-around;
 }
 .link{
   box-sizing: border-box;
