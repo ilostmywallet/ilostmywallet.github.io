@@ -469,7 +469,10 @@ box-sizing: border-box;
 .article_item:not(:nth-child(n+6)){
   border-bottom: 1px dashed #B7DCF4;
 }
-
+.box{
+  margin-bottom: 10px;
+}
+}
 @media only screen and (max-width: 590px){
 .shapka{
   flex-direction: column;
