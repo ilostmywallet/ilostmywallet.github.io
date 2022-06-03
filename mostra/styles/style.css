@@ -482,7 +482,9 @@ color: #50868a;
   color: #000;
   transition: 0.5s;
 }
-
+ .copy{
+    margin-right: 10px;
+  }
 @media only screen and (max-width: 970px) {
 .head_info{
   float: right;
@@ -763,9 +765,6 @@ color: #50868a;
     height: 40px;
     width: 40px;
     font-size: 14px;
-  }
-   .copy{
-    margin-right: 10px;
   }
 }
 @media only screen and (max-width: 360px){
