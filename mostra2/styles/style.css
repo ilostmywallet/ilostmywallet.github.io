@@ -678,6 +678,9 @@ padding-right: 15px;
   .buttons{
     width: 303px;
   }
+  .catalog{
+    margin-top: 30px;
+  }
 }
 @media only screen and (max-width: 590px){
 .shapka{
@@ -936,7 +939,8 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
     font-size: 10px;
   }
 }
-@media only screen and (max-width: 250px){
+
+@media only screen and (max-width: 265px){
   .logo{
     width: 100%;
     height: 50%;
@@ -951,6 +955,7 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
   .welcome{
     font-size: 16px;
   }
+
   .quality{
     font-size: 8px;
   }
@@ -961,7 +966,9 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
   .but_item{
    font-size: 8px;
   }
-  
+  form{
+    margin-top: 5px;
+  }
   .article_item{
   width: 140px;
   display: flex;
@@ -978,6 +985,9 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
   font-weight: bold;
   color: #146492;
   font-size: 10px;
+}
+.catalog{
+  margin-top: 0px;
 }
 .image{
   display: flex;
@@ -1084,7 +1094,7 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
   background-position-y: -10px;
 }
 .topic{
-  min-height: 190px;
+  min-height: 170px;
 }
 .mainmenu{
   height: 40px;
