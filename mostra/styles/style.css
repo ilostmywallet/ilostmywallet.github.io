@@ -825,11 +825,7 @@ color: #50868a;
   justify-content: flex-end;
 }
 }
-@media only screen and (max-width: 330px){
-.but_item{
-   font-size: 14px;
-}
-}
+
 @media only screen and (max-width: 311px){
   .but_item{
   font-size: 12px;
