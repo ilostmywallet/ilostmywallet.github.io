@@ -673,16 +673,14 @@ padding-right: 15px;
 }
 }
 @media only screen and (max-width: 616px){
-
   form{
     justify-content: start;
     margin-top: 10px;
-    width: 100%;
+    width: 94.5%;
   }
   .search{
-    width: 85%;
+    width: 65%;
   }
- 
   .buttons{
     width: 303px;
   }
@@ -831,6 +829,12 @@ color: #50868a;
 .buttons{
   width: 100%;
   justify-content: space-between;
+}
+form{
+  width: 100%;
+}
+.search{
+  width: 85%;
 }
 }
 @media only screen and (max-width: 311px){
