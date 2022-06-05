@@ -48,6 +48,7 @@
   float: right;
   text-decoration: none;
   color: #659a51;
+  font-weight: bold;
 }
 .email:hover{
   color: #000;
