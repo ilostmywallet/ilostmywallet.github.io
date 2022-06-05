@@ -11,7 +11,6 @@
   min-height: 1000px;
   background-color: none;
   margin: 0px auto;
-  overflow: hidden;
 }
 /*header*/
 .shapka{
@@ -22,6 +21,14 @@
 .top{
   background-color: none;
   padding: 36px 0px;
+}
+.lol{
+  position: relative;
+}
+.line{
+  position: absolute;
+  left: 125px;
+  top: -5px;
 }
 .logo{
   display: inline-block;
@@ -41,7 +48,6 @@
   float: right;
   text-decoration: none;
   color: #659a51;
-  font-weight: bold;  
 }
 .email:hover{
   color: #000;
@@ -670,7 +676,7 @@ padding-right: 15px;
   form{
     justify-content: start;
     margin-top: 10px;
-    width: 85%;
+    width: 100%;
   }
   .search{
     width: 85%;
@@ -680,8 +686,7 @@ padding-right: 15px;
     width: 303px;
   }
   .catalog{
-    margin-top: 45px;
-
+    margin-top: 30px;
   }
 }
 @media only screen and (max-width: 590px){
@@ -745,13 +750,14 @@ display: none;
 .button{
   margin-top: 38px;
 }
+
   .button{
     margin-top: 42px;
   padding: 10px 22px 12px;
   margin-right: 10px;
 }
-}
 
+}
 @media only screen and (max-width: 450px){
   .lowmenu{
     height: 20px;
@@ -824,9 +830,6 @@ color: #50868a;
 .buttons{
   width: 100%;
   justify-content: space-between;
-}
-form{
-  width: 100%;
 }
 }
 @media only screen and (max-width: 311px){
@@ -915,18 +918,27 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
   display: flex;
 }
 }
-@media only screen and (max-width: 280px){
-  .logo{
+@media only screen and (max-width: 290px){
+    .logo{
     width: 100%;
     height: 100%;
     margin: 0px;
   }
+  .line{
+  position: absolute;
+  left: 44.5%;
+  top: -11%;
+  width:13.5%;
+  height: 38.2%;
+}
+}
+@media only screen and (max-width: 280px){
+
   .search{
     padding-right: 20px; 
   }
   .downer{width: 100%;
-    align-items:center;
-    height: auto;}
+    align-items:center;}
   .previous, .next{
     width: 40px;
     font-size: 6.5px;
@@ -960,6 +972,7 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
   .welcome{
     font-size: 16px;
   }
+
   .quality{
     font-size: 8px;
   }
@@ -977,11 +990,11 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
   width: 140px;
   display: flex;
   flex-wrap: wrap;
-  height: auto;
+  height: 205px;
   background-color: #fff;
-  align-content: start;
-  margin: 0px;
-  padding-bottom: 0px;
+  margin-top: 15px;
+  align-content: space-around;
+  padding-bottom: 15px;
 }
 .name{
   display: flex;
@@ -989,8 +1002,6 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
   font-weight: bold;
   color: #146492;
   font-size: 10px;
-  padding-top: 8px;
-  padding-bottom: 2px;
 }
 .catalog{
   margin-top: 0px;
@@ -1035,8 +1046,6 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-top: 2px;
-  padding-bottom: 8px;
 }
 .cod{
    display: inline-block;
@@ -1087,13 +1096,6 @@ box-shadow: inset 10px 12px 0px 0px #DFEDF5, inset -12px -10px 0px 0px #DFEDF5;
   }
   .lowmenu{
     flex-wrap: wrap;
-  }
-  .boxed{
-    align-items: start;
-    padding-top: 20px;
-  }
-  .boxed>.copy{
-    justify-content: start;
   }
   .lower_item:not(:last-child)>.ccul {
     padding-right: 1px;
