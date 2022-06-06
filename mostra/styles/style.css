@@ -114,6 +114,7 @@
 .net:hover{
   border-radius: 5px;
 outline: 5px solid #185E86;
+ transition: 0.5s;
 }
 .soc{
   display:flex;
