@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" href="messages.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 20px auto;
+            width: 470px;
+        }
+
+        h3 {
+            margin: 0;
+            padding-bottom: .3em;
+            padding-right: 20px;
+            font-size: 1.1em;
+        }
+
+        p {
+            margin: 0;
+            padding: 0 0 .5em;
+        }
+
+        .pane {
+            background: #edf5e0;
+            padding: 10px 20px 10px;
+            border-top: solid 4px #afeb56;
+            position: relative;
+        }
+
+        .remove-button {
+            position: absolute;
+            font-size: 100%;
+            top: 0;
+            color: rgb(255, 0, 0);
+            right: 10px;
+            display: block;
+            border: none;
+            width: 24px;
+            height: 24px;
+            background: transparent;
+            cursor: pointer;
+        }
+    </style>
+
+    <div>
+        <div class="pane">
+            <h3>Android</h3>
+            <p>Android (укр. Андроїд) — операційна система і платформа для мобільних телефонів та планшетних комп'ютерів, створена компанією Google на базі ядра Linux. Підтримується альянсом Open Handset Alliance (OHA).</p>
+        </div>
+        <div class="pane">
+            <h3>Mac OS</h3>
+            <p>Mac OS (від Macintosh Operating System; Мак ОС, Операційна Система Макінтош) – перша комерційна графічна операційна система, створена компанією Apple Computer. Перша версія Mac OS вийшла у 1984 році разом з першим комп'ютером Macintosh. Також відома як «класична Mac OS»</p>
+        </div>
+        <div class="pane">
+            <h3>Windows phone</h3>
+            <p>Windows Phone (кодова назва «Photon») — велике оновлення Windows Mobile, що вийшло 11 жовтня 2010 року.
+Дана система є повністю новою, з повністю новим інтерфейсом і — вперше — з інтеграцією сервісів Microsoft Xbox Live і Zune. Презентація системи відбулася в рамках заходу Mobile World Congress, що проходить у Барселоні.
+            </p>
+        </div>
+    </div>
+
+
+    <script>
+        let panes = document.querySelectorAll('.pane');
+
+        for (let pane of panes) {
+            pane.insertAdjacentHTML("afterbegin", '<button class="remove-button">[x]</button>');
+            pane.firstChild.onclick = () => pane.remove();
+        }
+    </script>
+
+</body>
+
+</html>
